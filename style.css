@@ -1,0 +1,100 @@
+body {
+  margin: 0%;
+  background: #000000;
+}
+
+h1 {
+  margin-bottom: 30px;
+}
+
+#game {
+  width: 1200px;
+  height: 600px;
+  background-color: #ffffff;
+  cursor: none;
+}
+
+header {
+  position: absolute;
+  width: 100%;
+  height: 8vh;
+  top: 0;
+  left: 0px;
+  color: #ffffff;
+}
+
+nav {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  width: 500px;
+}
+
+.ouvrir {
+  display: block;
+}
+
+.fermer {
+  display: none;
+}
+
+.open .ouvrir {
+  display: none;
+}
+
+.open .fermer {
+  display: block;
+}
+
+.menu {
+  position: absolute;
+}
+
+#colorsChoice {
+  position: absolute;
+  right: 5px;
+  top: 60px;
+}
+#colorsChoice div {
+  background-color: #ff5a5f;
+  height: 15px;
+  width: 15px;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid transparent;
+  transition: all 0.3s;
+  cursor: pointer;
+  display: flex;
+  color: #FFFFFF;
+}
+#colorsChoice div:hover {
+  border-color: #ffffff;
+}
+
+#cursor {
+  position: fixed;
+  box-sizing: border-box;
+  width: 6px;
+  height: 6px;
+  background-color: transparent;
+  border: 1px solid #000000;
+  cursor: none;
+}
+
+#cursor::after {
+  content: "";
+  position: absolute;
+  width: 2px;
+  height: 2px;
+  background-color: transparent;
+  border: 1px solid #FFFFFF;
+}/*# sourceMappingURL=style.css.map */
