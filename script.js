@@ -4,7 +4,7 @@ const cursor = document.querySelector('#cursor');
 game.width = 1600;
 game.height = 650;
 const gridCellSize = 5;
-const scrollbar = document.body.style.overflow = 'auto'
+const scrollbar = document.body.style.overflow = 'hidden'
 
 const ctx = game.getContext('2d');
 const gridCtx = game.getContext('2d');
