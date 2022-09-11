@@ -1,16 +1,10 @@
 const colorsChoice = document.querySelector('#colorsChoice');
 const game = document.querySelector('#game');
 const cursor = document.querySelector('#cursor');
-game.width = 1200;
-game.height = 600;
-const gridCellSize = 6;
-
-let toggle = document.querySelector('.toggle');
-let body = document.querySelector('body');
-
-toggle.addEventListener('click', function(){
-    body.classList.toggle('open');
-})
+game.width = 1600;
+game.height = 650;
+const gridCellSize = 5;
+const scrollbar = document.body.style.overflow = 'auto'
 
 const ctx = game.getContext('2d');
 const gridCtx = game.getContext('2d');

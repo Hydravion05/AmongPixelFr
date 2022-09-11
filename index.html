@@ -2,41 +2,31 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="icon" type="image/png" href="img/Favicon2.png">
     <meta http-equiv="X-UA-Compatibe" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Among Pixel Fr</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     
-
-    <h1><img src="Among-Pixel_logo.png" alt="Among pixel logo" width="250px" style="display:block; margin:0 auto;" ></h1>
+    <h1><img src="img/Among-Pixel_logo.png" alt="Among pixel logo" width="250px" style="display:block; margin:0 auto;" ></h1>
 
     <div id="cursor"></div>
-    
+
+    <div class="color-picker-panel">
+        <div class="panel-row">
+            <div id="colorsChoice"></div>
+        </div>
+    </div>
+
     <canvas id="game" style="display:block; margin:0 auto; margin-bottom: 90px;" ></canvas>
-
-    <header>
-        <nav>
-            <div class="toggle">
-                <i class="fa-sharp fa-solid fa-chevron-down ouvrir"></i>
-                <i class="fa-sharp fa-solid fa-xmark fermer"></i>
-            </div>
-            <ul class="menu">  
-                <div id="colorsChoice"></div>          
-        </nav>
-    </header>
-
-    <section class="hero">
-        
-    </section>
 
     </script>
     <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js"></script>
     <script src="script.js"></script>
-
 
 </body>
 </html>
