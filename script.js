@@ -93,9 +93,6 @@ function drawGrids(ctx, width, height, cellWidth, cellHeight){
 drawGrids(gridCtx, game.width, game.height, gridCellSize, gridCellSize)
 
 game.addEventListener('mousemove', function(event){
-    console.log(" x :", event.clientX)
-    console.log(" y :", event.clientY)
-
     const cursorLeft = event.clientX - (cursor.offsetWidth / 2)
     const cursorTop = event.clientY - (cursor.offsetHeight / 2)
 
