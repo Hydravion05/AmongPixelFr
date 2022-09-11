@@ -11,17 +11,28 @@
 <body>
     
 
-    <h1><img src="Among-Pixel_logo.png" alt="Among pixel logo" width="200px"></h1>
+    <h1><img src="Among-Pixel_logo.png" alt="Among pixel logo" width="250px" style="display:block; margin:0 auto;" ></h1>
 
     <div id="cursor"></div>
+    
+    <canvas id="game" style="display:block; margin:0 auto; margin-bottom: 90px;" ></canvas>
 
-    <canvas id="game"></canvas>
+    <header>
+        <nav>
+            <div class="toggle">
+                <i class="fa-sharp fa-solid fa-chevron-down ouvrir"></i>
+                <i class="fa-sharp fa-solid fa-xmark fermer"></i>
+            </div>
+            <ul class="menu">  
+                <div id="colorsChoice"></div>          
+        </nav>
+    </header>
 
-    <div id="colorsChoice"></div>
-
+    </script>
     <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js"></script>
     <script src="script.js"></script>
 
+    
 </body>
 </html>
