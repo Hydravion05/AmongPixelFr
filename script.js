@@ -17,17 +17,19 @@ const colorList = [
 ]
 let currentColorChoice = colorList[9]
 
+
+
 const firebaseConfig = {
-    apiKey: "AIzaSyAWSpzuJz6BSZvXsdZ6tWQjPHpjujlYt7k",
-    authDomain: "amongpixelfr.firebaseapp.com",
-    projectId: "amongpixelfr",
-    storageBucket: "amongpixelfr.appspot.com",
-    messagingSenderId: "255842010841",
-    appId: "1:255842010841:web:61986164262f549ce360c8",
-    measurementId: "G-K6686K3LQ5"
-  };
+    apiKey: "AIzaSyAzvGLFa3aOyoY_MwjR4FzD5sxCZ2uBLiA",
+    authDomain: "amongpixelfr-d7f60.firebaseapp.com",
+    projectId: "amongpixelfr-d7f60",
+    storageBucket: "amongpixelfr-d7f60.appspot.com",
+    messagingSenderId: "220805234546",
+    appId: "1:220805234546:web:e230e43e34887c163827eb"
+};
 firebase.initializeApp(firebaseConfig)
 const db = firebase.firestore()
+
 
 colorList.forEach(color => {
     const colorItem = document.createElement('div')
